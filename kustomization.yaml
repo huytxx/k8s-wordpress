@@ -1,5 +1,7 @@
+namespace: ingress-controller
 secretGenerator:
 - name: mysql-pass
+#- namespace: ingress-controller
   literals:
   - password=test123
 resources:

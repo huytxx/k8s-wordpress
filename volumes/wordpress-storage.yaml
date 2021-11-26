@@ -4,6 +4,8 @@ metadata:
   name: wp-pv
   labels:
     type: local
+  namespace: ingress-controller
+
 spec:
   storageClassName: manual
   capacity:
@@ -19,6 +21,8 @@ metadata:
   name: wp-pv-claim
   labels:
     app: wordpress
+  namespace: ingress-controller
+
 spec:
   storageClassName: manual
   accessModes:
