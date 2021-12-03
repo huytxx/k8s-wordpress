@@ -4,7 +4,6 @@ metadata:
   name: mysql-pv
   labels:
     type: local
-  namespace: ingress-controller
 
 spec:
   storageClassName: manual
@@ -21,7 +20,6 @@ metadata:
   name: mysql-pv-claim
   labels:
     app: wordpress
-  namespace: ingress-controller
 
 spec:
   storageClassName: manual
