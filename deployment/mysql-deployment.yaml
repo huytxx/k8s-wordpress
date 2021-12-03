@@ -21,9 +21,9 @@ spec:
       containers:
       - image: mysql:5.7
         name: mysql
-        env:
-        - name: MYSQL_ROOT_PASSWORD
-          value: huy12345
+        #env:
+        #- name: MYSQL_ROOT_PASSWORD
+          #value: huy12345
         ports:
         - containerPort: 3306
           name: mysql
