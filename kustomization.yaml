@@ -8,5 +8,5 @@ resources:
   - deployment/mysql-deployment.yaml
   - service/mysql-service.yaml
   - volumes/wordpress-storage.yaml
-  #- deployment/wordpress-deployment.yaml
-  #- service/wordpress-service.yaml
+  - deployment/wordpress-deployment.yaml
+  - service/wordpress-service.yaml
