@@ -11,7 +11,7 @@ spec:
   capacity:
     storage: 10Gi
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteOnce # ReadWriteOnce, ReadOnlyMany or ReadWriteMany
   hostPath:
     path: "/home/data"
 ---
