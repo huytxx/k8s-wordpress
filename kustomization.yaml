@@ -2,7 +2,7 @@ secretGenerator:
 - name: mysql-pass
 #- namespace: ingress-controller
   literals:
-  - password=d29yZHByZXNz
+  - password=YOUR_PASSWORD
 resources:
   - volumes/mysql-storage.yaml
   - deployment/mysql-deployment.yaml
