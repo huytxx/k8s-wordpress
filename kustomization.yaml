@@ -3,6 +3,7 @@ secretGenerator:
   literals:
   - password=MWYyZDFlMmU2N2Rm
 resources:
+  - secrets/mysql-secret.yaml
   - volumes/mysql-storage.yaml
   - deployment/mysql-deployment.yaml
   - service/mysql-service.yaml
