@@ -1,7 +1,7 @@
 secretGenerator:
 - name: mysql-pass
   literals:
-  - password=cm9vdA==
+  - password=root
 resources:
   - secrets/mysql-secret.yaml
   - volumes/mysql-storage.yaml
