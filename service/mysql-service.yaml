@@ -11,4 +11,4 @@ spec:
   selector:
     app: wordpress
     tier: mysql
-  type: LoadBalancer
+  clusterIP: None
