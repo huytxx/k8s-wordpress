@@ -4,6 +4,7 @@ metadata:
   name: wordpress
   labels:
     app: wordpress
+  namespace: ingress-controller
 
 spec:
   selector:
